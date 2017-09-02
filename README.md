@@ -5,9 +5,13 @@ Auto-Install Script :-
 2. mysql_secure_installation
   
   Change the root password? [Y/n]: n
+  
   Remove anonymous users? [Y/n]: y
+  
   Disallow root login remotely? [Y/n]: y
+  
   Remove test database and access to it? [Y/n]: y
+  
   Reload privilege tables now? [Y/n]: y
   
 3. apt-get install wget && wget https://raw.github.com/blazevpn/ocspanel/master/ocsdebian7.sh && chmod +x && ./ocsdebian7.sh
