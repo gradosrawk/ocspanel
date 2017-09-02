@@ -3,6 +3,7 @@ Auto-Install Script :-
 1. apt-get update && apt-get -y install mysql-server
 
 2. mysql_secure_installation
+  
   Change the root password? [Y/n]: n
   Remove anonymous users? [Y/n]: y
   Disallow root login remotely? [Y/n]: y
